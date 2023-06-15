@@ -6,11 +6,9 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = () => {
-  document.querySelector("#btn").addEventListener("click", () => {
-    document.querySelector("#the-excuse").innerHTML = generateExcuse();
-  });
-  console.log("Hello Rigo from the console!");
+  document.querySelector("#the-excuse").innerHTML = generateExcuse();
 };
+
 let generateExcuse = () => {
   let pronoun = ["A", "The"];
   let subject = ["cat", "racoon", "dog", "bear", "ghost"];
